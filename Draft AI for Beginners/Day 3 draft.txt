@@ -1,0 +1,280 @@
+# Day 3: AI Models, Types & Prompting Foundations
+
+What Models Exist, What Big Companies Are Doing, and How Prompting Fits In
+
+---
+
+## Slide 1 — Title Slide
+
+**AI Models, Types & Prompting Foundations**
+LLMs, Image Models, World Models & Why Prompting Matters
+
+Workshop: AI for Beginners (Day 3)
+
+**Speaker Notes:**
+Welcome participants. Explain that today bridges understanding and usage. First, we’ll understand *what kinds of AI models exist* and *what major companies are building*. Only then will we introduce prompting—so it feels logical, not magical.
+
+---
+
+## Slide 2 — How Today Fits into the Journey
+
+* Day 1: Where AI came from
+* Day 2: AI vs Generative AI
+* Day 3: Models behind GenAI + Prompting basics
+* Day 4: Risks, ethics, and real-world use
+
+**Speaker Notes:**
+Reinforce continuity. Stress that models are the engines behind GenAI tools people see.
+
+---
+
+## Slide 3 — What Is an AI Model?
+
+An AI model is:
+
+* A trained system that learns patterns
+* Built using large amounts of data
+* Used to make predictions or generate content
+
+**Speaker Notes:**
+Use a simple analogy: a model is like a "trained brain" frozen at a point in time. It doesn’t learn during normal usage.
+
+---
+
+## Slide 4 — One Important Clarification
+
+* AI tools ≠ AI models
+* Tools are interfaces
+* Models do the actual intelligence work
+
+Examples:
+
+* Chat interface → Model behind it
+* Image app → Image model behind it
+
+**Speaker Notes:**
+This clears confusion early. Many users think ChatGPT *is* the AI; explain it’s an interface on top of models.
+
+---
+
+## Slide 5 — Why There Are Different Types of Models
+
+* Different problems need different intelligence
+* Language ≠ vision ≠ physical world
+* No single model is best at everything
+
+**Speaker Notes:**
+Stress specialization. This explains why companies build multiple model types.
+
+---
+
+## Slide 6 — Language Models (LLMs)
+
+**Large Language Models (LLMs)** are designed to:
+
+* Understand and generate text
+* Answer questions
+* Summarize, explain, and draft
+
+Examples:
+
+* ChatGPT
+* Claude
+* Gemini
+
+**Speaker Notes:**
+Clarify that LLMs work on text probabilities. They are strongest where language is the core problem.
+
+---
+
+## Slide 7 — What LLMs Are Good At
+
+* Writing and rewriting text
+* Explaining concepts
+* Analyzing documents
+* Conversational interfaces
+
+**Speaker Notes:**
+Position LLMs as powerful assistants for knowledge work, not decision-makers.
+
+---
+
+## Slide 8 — Limitations of LLMs
+
+* Can hallucinate
+* No real understanding
+* Weak with exact numbers
+* Knowledge may be outdated
+
+**Speaker Notes:**
+Explain that LLMs optimize fluency, not truth. This reinforces safe usage.
+
+---
+
+## Slide 9 — Image Models
+
+Image models are designed to:
+
+* Generate images
+* Edit images
+* Understand visual content
+
+Examples:
+
+* DALL·E
+* Midjourney
+* Stable Diffusion
+
+**Speaker Notes:**
+Explain that image models learn visual patterns, styles, and structures—not artistic intent.
+
+---
+
+## Slide 10 — What Image Models Are Good At
+
+* Concept visualization
+* Design inspiration
+* Marketing visuals
+* Rapid prototyping
+
+**Speaker Notes:**
+Emphasize speed and iteration over perfection.
+
+---
+
+## Slide 11 — Limitations of Image Models
+
+* Inconsistent details
+* Struggles with text in images
+* Bias in training data
+
+**Speaker Notes:**
+Mention that realism does not equal accuracy.
+
+---
+
+## Slide 12 — World Models (Emerging Category)
+
+World models aim to:
+
+* Understand environments
+* Predict outcomes of actions
+* Simulate real-world behavior
+
+Examples:
+
+* Robotics
+* Autonomous vehicles
+* Game simulations
+
+**Speaker Notes:**
+Keep this high-level. World models are about cause-and-effect, not just content generation.
+
+---
+
+## Slide 13 — Why World Models Matter
+
+* Enable planning
+* Support decision-making
+* Bridge AI and physical reality
+
+**Speaker Notes:**
+Explain that this is where AI moves closer to reasoning about the world.
+
+---
+
+## Slide 14 — Other Important Model Types (Brief)
+
+* Speech models (voice, transcription)
+* Recommendation models
+* Forecasting and prediction models
+
+**Speaker Notes:**
+Quick overview only. The goal is awareness, not depth.
+
+---
+
+## Slide 15 — What Big Tech Companies Are Building
+
+* **OpenAI:** LLMs, multimodal models
+* **Google:** Language + world understanding
+* **Meta:** Open-source models, social-scale AI
+* **Microsoft:** AI embedded into tools
+* **Amazon:** AI for logistics and operations
+
+**Speaker Notes:**
+Avoid hype. Focus on strategy: integrating AI into existing products.
+
+---
+
+## Slide 16 — The Shift Toward Multimodal AI
+
+* Text + image + audio combined
+* Single model, multiple inputs
+* More natural interaction
+
+**Speaker Notes:**
+Explain that humans communicate multimodally; AI is moving in that direction.
+
+---
+
+## Slide 17 — Where Prompting Fits In
+
+* Prompting is how humans communicate intent
+* Models respond to instructions, not goals
+* Better prompts = better alignment
+
+**Speaker Notes:**
+This slide transitions from models to prompting smoothly.
+
+---
+
+## Slide 18 — What Prompting Is (Conceptually)
+
+Prompting is:
+
+* Giving context
+* Giving instructions
+* Setting boundaries
+
+**Speaker Notes:**
+Emphasize that prompting is not coding; it is structured communication.
+
+---
+
+## Slide 19 — Why Prompting Matters
+
+* Models don’t know what you *mean*
+* They only know what you *say*
+* Ambiguity leads to poor outputs
+
+**Speaker Notes:**
+Use an analogy: vague instructions to a human lead to poor results too.
+
+---
+
+## Slide 20 — Preview of Day 4
+
+* Prompting frameworks
+* Safety and misuse
+* Real-world workflows
+
+**Speaker Notes:**
+Set expectations for the final day. Build anticipation.
+
+---
+
+## Slide 21 — Homework
+
+**Task:**
+
+* Identify one AI tool you’ve heard about
+* Write what *model type* you think it uses
+* Write one question you would ask it
+
+**Speaker Notes:**
+Homework reinforces model awareness and prepares them for prompting.
+
+---
+
+**End of Day 3**

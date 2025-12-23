@@ -1,0 +1,272 @@
+# Day 4: Prompting Basics, Safety & Responsible Use
+
+How to Communicate with AI Clearly, Safely, and Responsibly
+
+---
+
+## Slide 1 — Title Slide
+
+**Prompting Basics, Safety & Responsible Use**
+From Understanding Models to Using AI Responsibly
+
+Workshop: AI for Beginners (Day 4)
+
+**Speaker Notes:**
+Welcome to the final day. Explain that today turns understanding into practical control. Emphasize that prompting is about clarity and responsibility, not tricks or shortcuts.
+
+---
+
+## Slide 2 — How Prompting Fits Everything We Learned
+
+* AI models don’t understand intent
+* They respond only to instructions
+* Prompting is how humans guide models
+
+**Speaker Notes:**
+Reconnect to Day 3: models are engines, prompting is the steering wheel. Without clear steering, even powerful engines go off track.
+
+---
+
+## Slide 3 — What Prompting Is NOT
+
+Prompting is NOT:
+
+* Programming
+* Magic commands
+* Guaranteed correctness
+* A replacement for thinking
+
+**Speaker Notes:**
+Lower expectations deliberately. This prevents overtrust and frustration.
+
+---
+
+## Slide 4 — What Prompting IS
+
+Prompting IS:
+
+* Structured communication
+* Providing context
+* Defining expectations
+* Guiding output quality
+
+**Speaker Notes:**
+Use a human analogy: clearer instructions lead to better outcomes.
+
+---
+
+## Slide 5 — Why AI Needs Explicit Instructions
+
+* AI has no goals
+* AI has no awareness of importance
+* AI does not infer priorities
+
+**Speaker Notes:**
+Explain that humans infer intent naturally; AI does not. This explains why vague prompts fail.
+
+---
+
+## Slide 6 — The Core Prompting Framework
+
+**R–T–C Framework**
+
+* **Role:** Who should the AI act as?
+* **Task:** What should it do?
+* **Constraints:** How should it respond?
+
+**Speaker Notes:**
+Keep this framework simple and repeatable. This is the only framework beginners need.
+
+---
+
+## Slide 7 — Role: Setting Perspective
+
+Examples:
+
+* “You are an HR manager…”
+* “You are a customer support agent…”
+* “You are a technical writer…”
+
+**Speaker Notes:**
+Explain that role sets tone, vocabulary, and assumptions.
+
+---
+
+## Slide 8 — Task: Being Explicit
+
+Good task descriptions:
+
+* Clear objective
+* Single responsibility
+* Action-oriented
+
+**Speaker Notes:**
+Explain that vague tasks lead to generic answers.
+
+---
+
+## Slide 9 — Constraints: Reducing Ambiguity
+
+Constraints can include:
+
+* Length
+* Tone
+* Format
+* Audience
+
+**Speaker Notes:**
+Explain that constraints narrow the output space and improve relevance.
+
+---
+
+## Slide 10 — Example: Weak vs Strong Prompt
+
+**Weak:**
+“Write an email.”
+
+**Strong:**
+“You are a sales manager. Write a polite follow-up email to a client after a meeting. Keep it under 150 words.”
+
+**Speaker Notes:**
+Walk through why the strong prompt works better using RTC.
+
+---
+
+## Slide 11 — Iteration Is Normal
+
+* First output is a draft
+* Ask for refinement
+* Adjust tone or format
+
+**Speaker Notes:**
+Reinforce that iteration is expected, not failure.
+
+---
+
+## Slide 12 — Common Prompting Mistakes
+
+* Too vague
+* Too many tasks at once
+* Assuming context
+* Blindly trusting output
+
+**Speaker Notes:**
+Use examples participants can relate to from emails or instructions.
+
+---
+
+## Slide 13 — AI Hallucinations Explained
+
+* AI may generate false information
+* Sounds confident even when wrong
+* Happens due to probability-based generation
+
+**Speaker Notes:**
+Tie back to Day 2 and Day 3. This is a core risk.
+
+---
+
+## Slide 14 — How to Reduce Hallucinations
+
+* Ask for sources
+* Ask AI to say “I don’t know”
+* Break tasks into steps
+* Verify critical information
+
+**Speaker Notes:**
+Stress that verification is a human responsibility.
+
+---
+
+## Slide 15 — Data Privacy & Security
+
+Do NOT share:
+
+* Passwords
+* Personal identifiers
+* Confidential company data
+* Financial details
+
+**Speaker Notes:**
+Explain that public tools may store or learn from inputs.
+
+---
+
+## Slide 16 — Ethical Use of AI
+
+* Avoid discrimination
+* Avoid misinformation
+* Respect intellectual property
+* Maintain human accountability
+
+**Speaker Notes:**
+Keep ethics practical, not philosophical.
+
+---
+
+## Slide 17 — Where AI Helps Most (Realistic View)
+
+AI is best for:
+
+* Drafting
+* Summarizing
+* Brainstorming
+* Structuring information
+
+**Speaker Notes:**
+Reinforce assistant mindset.
+
+---
+
+## Slide 18 — Where AI Should NOT Decide Alone
+
+* Hiring decisions
+* Legal judgments
+* Financial approvals
+* Medical advice
+
+**Speaker Notes:**
+Clear boundaries protect both people and organizations.
+
+---
+
+## Slide 19 — Personal AI Usage Checklist
+
+Before using AI output:
+
+* Is this factual?
+* Is this appropriate?
+* Is this verified?
+* Am I accountable?
+
+**Speaker Notes:**
+Encourage participants to adopt this checklist mentally.
+
+---
+
+## Slide 20 — Final Workshop Takeaways
+
+* AI is powerful but limited
+* Models respond to instructions
+* Prompting is communication
+* Humans remain responsible
+
+**Speaker Notes:**
+Close confidently. Reinforce empowerment, not fear.
+
+---
+
+## Slide 21 — Final Homework & Next Steps
+
+**Task:**
+
+* Identify 3 tasks where AI can help you
+* Write one RTC prompt for each
+* Commit to safe usage
+
+**Speaker Notes:**
+Frame this as a beginning, not an end.
+
+---
+
+**End of Day 4 — Workshop Complete**

@@ -1,0 +1,287 @@
+# Day 1: History & Evolution of Artificial Intelligence
+
+---
+
+## Slide 1 — Title Slide
+
+**History & Evolution of Artificial Intelligence**
+From Human Logic to Generative AI
+
+Workshop: AI for Beginners (Day 1)
+
+**Speaker Notes:**
+Welcome participants. Set expectations clearly: today is about understanding *how AI came to be*, not how to code or use tools. Emphasize that AI did not appear suddenly—it evolved over decades. This session builds the foundation for everything that follows.
+
+---
+
+## Slide 2 — Why Are We Talking About AI?
+
+* AI is no longer a future concept
+* It is already embedded in daily life
+* Understanding AI helps reduce fear and misuse
+* Goal: clarity, not technical depth
+
+**Speaker Notes:**
+Explain that AI affects decisions, jobs, and information people consume daily. Many fears come from misunderstanding. Clarify that this workshop focuses on awareness and informed usage, not replacing human roles.
+
+---
+
+## Slide 3 — What Do People Usually Think AI Is?
+
+* Robots that think like humans
+* Machines that replace jobs
+* Something extremely technical
+
+**Reality:**
+
+* AI is software
+* It works on data and patterns
+* It does not think or understand like humans
+
+**Speaker Notes:**
+Ask participants what comes to mind when they hear “AI.” Acknowledge common misconceptions. Clearly state that AI does not have consciousness or intention—it processes inputs mathematically.
+
+---
+
+## Slide 4 — The Human Desire to Build Intelligence
+
+* Humans automate repetitive work
+* Tools evolved from physical → mental work
+* AI is an extension of decision-making tools
+
+Examples:
+
+* Calculator → Spreadsheet → AI assistant
+
+**Speaker Notes:**
+Position AI as part of a long history of tools. Humans always build tools to save time and reduce effort. AI is simply the next step in automating thinking-related tasks.
+
+---
+
+## Slide 5 — Early Ideas of Artificial Intelligence (Before Computers)
+
+* Mechanical calculators (1600s)
+* Logic and mathematics as reasoning tools
+* Question asked: *Can machines imitate human reasoning?*
+
+**Speaker Notes:**
+Highlight that the idea of artificial intelligence existed long before modern computers. Philosophers and mathematicians were already thinking about machine reasoning centuries ago.
+
+---
+
+## Slide 6 — 1950s: Birth of Artificial Intelligence
+
+* Alan Turing proposes the **Turing Test**
+* Goal: Can a machine appear intelligent in conversation?
+* AI defined as "machines that can mimic human intelligence"
+
+**Speaker Notes:**
+Briefly explain the Turing Test in simple terms. Stress that early AI focused on imitation, not understanding. This definition shaped decades of AI research.
+
+---
+
+## Slide 7 — 1950s–1970s: Rule-Based AI
+
+* Intelligence written as rules
+* "If X happens, do Y"
+* Worked well for small, fixed problems
+
+Examples:
+
+* Chess rules
+* Simple decision trees
+
+Limitations:
+
+* Cannot adapt
+* Cannot learn new patterns
+
+**Speaker Notes:**
+Explain that early AI was fragile. It worked only in controlled environments. Any situation outside predefined rules caused failure.
+
+---
+
+## Slide 8 — 1980s–1990s: Expert Systems
+
+* Knowledge from experts encoded into software
+* Used in medicine, finance, engineering
+
+Problems:
+
+* Very expensive to build
+* Difficult to update
+* Failed when conditions changed
+
+**Speaker Notes:**
+Mention that these systems depended heavily on human experts. Once the world changed, systems became outdated quickly. This slowed AI adoption.
+
+---
+
+## Slide 9 — The Big Problem with Early AI
+
+* Humans had to explain everything
+* World is too complex for rules
+* AI needed to *learn*, not just follow instructions
+
+**Speaker Notes:**
+Emphasize this as a turning point. Humans realized it was impossible to manually describe the real world using rules alone.
+
+---
+
+## Slide 10 — 2000s: Rise of Machine Learning
+
+* Machines learn patterns from data
+* No need to write every rule
+
+Simple idea:
+
+> Give examples → Let machine find patterns
+
+**Speaker Notes:**
+Use a simple analogy: instead of teaching every traffic rule, show thousands of driving examples. This shift enabled scalable intelligence.
+
+---
+
+## Slide 11 — Examples of Machine Learning in Daily Life
+
+* Email spam detection
+* Credit card fraud detection
+* Product recommendations
+* Face recognition
+
+AI predicts outcomes based on past data
+
+**Speaker Notes:**
+Reinforce that participants were already benefiting from AI long before ChatGPT. These systems predict probabilities, not certainty.
+
+---
+
+## Slide 12 — 2010s: Deep Learning Breakthrough
+
+* Inspired by human brain (neural networks)
+* Can process images, audio, language
+* Requires large data + powerful computers
+
+Key shift:
+
+* AI becomes much more accurate
+
+**Speaker Notes:**
+Explain that deep learning unlocked perception: seeing, hearing, and language understanding. Accuracy improved drastically, enabling real-world use.
+
+---
+
+## Slide 13 — Why AI Suddenly Became Powerful
+
+Three major reasons:
+
+1. Massive amounts of data
+2. Powerful GPUs and cloud computing
+3. Better algorithms
+
+**Speaker Notes:**
+Stress that AI success is not magic—it is the result of scale. Data and computing power changed what was possible.
+
+---
+
+## Slide 14 — AI Before vs AI After 2020
+
+**Before:**
+
+* Predicting
+* Classifying
+* Recommending
+
+**After:**
+
+* Writing
+* Creating images
+* Generating code
+* Conversational interaction
+
+**Speaker Notes:**
+Highlight this as the moment participants usually notice AI. Creation feels human-like, which makes GenAI powerful—and risky.
+
+---
+
+## Slide 15 — Transition to Generative AI
+
+* AI moves from *recognizing* to *creating*
+* Based on predicting the next word, pixel, or sound
+* This shift changes how humans interact with machines
+
+**Speaker Notes:**
+Clarify that generation is still prediction under the hood. The output feels intelligent because language is familiar to humans.
+
+---
+
+## Slide 16 — Important Clarification
+
+AI does **NOT**:
+
+* Think
+* Understand meaning
+* Have intentions
+
+AI **DOES**:
+
+* Predict patterns
+* Generate outputs based on probabilities
+
+**Speaker Notes:**
+Repeat this distinction clearly. This concept will be critical when discussing hallucinations and misuse later.
+
+---
+
+## Slide 17 — Where You Already See AI Today
+
+* Google Maps routes
+* YouTube recommendations
+* Voice assistants
+* Auto-correct and translation
+
+You were using AI before knowing it
+
+**Speaker Notes:**
+Help participants connect AI to their real lives. This reduces fear and builds familiarity.
+
+---
+
+## Slide 18 — Why This History Matters
+
+* Explains AI limitations
+* Explains why AI can be wrong
+* Helps use AI responsibly
+* Reduces unrealistic expectations
+
+**Speaker Notes:**
+Tie history to responsibility. Understanding evolution prevents blind trust and over-dependence.
+
+---
+
+## Slide 19 — Key Takeaways (Day 1)
+
+* AI evolved over decades
+* Shift from rules → learning → generation
+* AI works on patterns, not understanding
+* Generative AI is a major turning point
+
+**Speaker Notes:**
+Summarize calmly. Reinforce that today was about perspective, not skills.
+
+---
+
+## Slide 20 — Homework
+
+**Task:**
+
+* Identify 2 AI systems you already use
+* Write what problem they solve
+* Bring examples for discussion tomorrow
+
+**Speaker Notes:**
+Encourage reflection, not research. This primes them for Day 2.
+
+---
+
+**End of Day 1**

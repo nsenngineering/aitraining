@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Training Workshop Series - NS Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Company Header -->
+    <nav class="company-header">
+        <div class="container">
+            <div class="company-brand">
+                <div class="company-logo">NS</div>
+                <div class="company-info">
+                    <h1 class="company-name">NS Engineering</h1>
+                    <p class="company-tagline">AI Training & Development</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-background">
+                <div class="neural-network"></div>
+            </div>
+            <div class="hero-content">
+                <div class="badge">Professional AI Training Series</div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Master Artificial Intelligence</span>
+                    <span class="subtitle">From Fundamentals to Advanced Applications</span>
+                </h1>
+                <p class="hero-description">
+                    Comprehensive training programs designed to build AI literacy, practical skills, and responsible usage across all levels
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Programs</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Concepts</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Perfect</div>
+                        <div class="stat-label">Learning</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Training Programs Overview -->
+        <section class="programs-overview">
+            <div class="section-header">
+                <h2 class="section-title">Training Programs</h2>
+                <p class="section-subtitle">Choose your learning path based on your experience level and goals</p>
+            </div>
+
+            <div class="program-cards">
+                <div class="program-card active">
+                    <div class="program-status available">Available Now</div>
+                    <div class="program-icon">🎓</div>
+                    <h3>AI For Beginners</h3>
+                    <p>Build foundational AI knowledge from history to practical prompting</p>
+                    <div class="program-meta">
+                        <span>4 Modules</span>
+                        <span>Beginner Level</span>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-status coming-soon">Coming Soon</div>
+                    <div class="program-icon">⚡</div>
+                    <h3>Prompt Engineering Advanced</h3>
+                    <p>Master advanced prompting techniques and AI workflow optimization</p>
+                    <div class="program-meta">
+                        <span>TBD</span>
+                        <span>Intermediate Level</span>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-status coming-soon">Coming Soon</div>
+                    <div class="program-icon">🚀</div>
+                    <h3>AI For Cutting Edge</h3>
+                    <p>Explore frontier AI technologies and emerging applications</p>
+                    <div class="program-meta">
+                        <span>TBD</span>
+                        <span>Advanced Level</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI For Beginners Course -->
+        <section class="course-section" id="ai-beginners">
+            <div class="course-header">
+                <div class="course-badge">🎓 Available Now</div>
+                <h2 class="course-title">AI For Beginners</h2>
+                <p class="course-subtitle">A comprehensive 4-module journey from AI history to responsible practical usage</p>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="tabs-container">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="day1">Module 1</button>
+                    <button class="tab-btn" data-tab="day2">Module 2</button>
+                    <button class="tab-btn" data-tab="day3">Module 3</button>
+                    <button class="tab-btn" data-tab="day4">Module 4</button>
+                </div>
+
+                <!-- Module 1 Content -->
+                <div class="tab-content active" id="day1">
+                    <div class="day-header">
+                        <h3>Module 1: History & Evolution of Artificial Intelligence</h3>
+                        <p class="day-tagline">From Human Logic to Generative AI</p>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="timeline-item" data-era="1950s">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Birth of AI</h4>
+                                <p>Alan Turing proposes the Turing Test. AI defined as machines that can mimic human intelligence.</p>
+                                <span class="timeline-tag">Foundation Era</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="1950s-1970s">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Rule-Based AI</h4>
+                                <p>Intelligence written as rules. Worked for small problems but couldn't adapt or learn new patterns.</p>
+                                <span class="timeline-tag">Early Systems</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="1980s-1990s">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Expert Systems</h4>
+                                <p>Knowledge from experts encoded into software. Used in medicine and finance but difficult to update.</p>
+                                <span class="timeline-tag">Knowledge Engineering</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="2000s">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Machine Learning</h4>
+                                <p>Machines learn patterns from data. No need to write every rule. Scalable intelligence emerges.</p>
+                                <span class="timeline-tag">Learning Era</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="2010s">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Deep Learning</h4>
+                                <p>Neural networks inspired by the brain. Can process images, audio, and language with high accuracy.</p>
+                                <span class="timeline-tag">Perception Breakthrough</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item highlight" data-era="2020+">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Generative AI</h4>
+                                <p>AI moves from recognizing to creating. Writing, generating images, code, and conversational interaction.</p>
+                                <span class="timeline-tag">Current Era</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="topics-grid">
+                        <h4 class="topics-heading">Key Topics Covered</h4>
+                        <div class="topics">
+                            <div class="topic">
+                                <div class="topic-number">01</div>
+                                <h5>Understanding AI</h5>
+                                <p>What AI really is vs. common misconceptions</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">02</div>
+                                <h5>Historical Context</h5>
+                                <p>From mechanical calculators to neural networks</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">03</div>
+                                <h5>The Big Shift</h5>
+                                <p>From rules to learning to generation</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">04</div>
+                                <h5>AI in Daily Life</h5>
+                                <p>Where you already encounter AI systems</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">05</div>
+                                <h5>Critical Insights</h5>
+                                <p>Why AI predicts but doesn't understand</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">06</div>
+                                <h5>Responsible Usage</h5>
+                                <p>Understanding limitations and expectations</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homework-section">
+                        <div class="homework-icon">📝</div>
+                        <div class="homework-content">
+                            <h4>Module 1 Homework</h4>
+                            <p>Identify 2 AI systems you already use, write what problem they solve, and bring examples for discussion</p>
+                        </div>
+                    </div>
+
+                    <div class="day-navigation">
+                        <button class="nav-btn next-btn" data-next="day2">
+                            Next Module: AI vs Generative AI
+                            <span class="nav-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Module 2 Content -->
+                <div class="tab-content" id="day2">
+                    <div class="day-header">
+                        <h3>Module 2: AI vs Generative AI</h3>
+                        <p class="day-tagline">What Changed, What Didn't, and Why It Matters</p>
+                    </div>
+
+                    <div class="comparison-section">
+                        <div class="comparison-card">
+                            <h4>Traditional AI</h4>
+                            <ul class="comparison-list">
+                                <li>Analyzes data</li>
+                                <li>Recognizes patterns</li>
+                                <li>Predicts outcomes</li>
+                                <li>Makes recommendations</li>
+                                <li>Narrow, task-specific</li>
+                            </ul>
+                            <div class="comparison-examples">
+                                <h5>Examples:</h5>
+                                <p>Spam filtering, fraud detection, recommendation systems, credit scoring, face recognition</p>
+                            </div>
+                        </div>
+
+                        <div class="comparison-divider">→</div>
+
+                        <div class="comparison-card highlight">
+                            <h4>Generative AI</h4>
+                            <ul class="comparison-list">
+                                <li>Creates new content</li>
+                                <li>Works with language naturally</li>
+                                <li>Handles open-ended tasks</li>
+                                <li>Interacts conversationally</li>
+                                <li>Writes, creates, explains</li>
+                            </ul>
+                            <div class="comparison-examples">
+                                <h5>Examples:</h5>
+                                <p>ChatGPT, DALL·E, Claude, content generation, image creation</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="insight-boxes">
+                        <div class="insight-box success">
+                            <div class="insight-icon">✓</div>
+                            <h4>Strengths of Generative AI</h4>
+                            <ul>
+                                <li>Speed</li>
+                                <li>Drafting ability</li>
+                                <li>Language fluency</li>
+                                <li>Creativity support</li>
+                            </ul>
+                        </div>
+
+                        <div class="insight-box warning">
+                            <div class="insight-icon">!</div>
+                            <h4>Weaknesses of Generative AI</h4>
+                            <ul>
+                                <li>Hallucinations</li>
+                                <li>Confidently wrong answers</li>
+                                <li>Bias from training data</li>
+                                <li>No real-world understanding</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="topics-grid">
+                        <h4 class="topics-heading">Key Topics Covered</h4>
+                        <div class="topics">
+                            <div class="topic">
+                                <div class="topic-number">01</div>
+                                <h5>Traditional vs Generative</h5>
+                                <p>Understanding the fundamental differences</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">02</div>
+                                <h5>Why It Feels Intelligent</h5>
+                                <p>The illusion of understanding through fluency</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">03</div>
+                                <h5>Under the Hood</h5>
+                                <p>How prediction drives generation</p>
+                            </div>
+                            <div class="topic">
+                                <div class="topic-number">04</div>
+                                <h5>When to Use Which</h5>
+                                <p>Choosing the right tool for the right job</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homework-section">
+                        <div class="homework-icon">📝</div>
+                        <div class="homework-content">
+                            <h4>Module 2 Homework</h4>
+                            <p>Ask an AI tool to explain something you already know well. Note one thing it explains well and one thing it gets wrong or vague</p>
+                        </div>
+                    </div>
+
+                    <div class="day-navigation">
+                        <button class="nav-btn prev-btn" data-prev="day1">
+                            <span class="nav-arrow">←</span>
+                            Previous Module: History & Evolution
+                        </button>
+                        <button class="nav-btn next-btn" data-next="day3">
+                            Next Module: AI Models & Prompting
+                            <span class="nav-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Module 3 Content -->
+                <div class="tab-content" id="day3">
+                    <div class="day-header">
+                        <h3>Module 3: AI Models, Types & Prompting Foundations</h3>
+                        <p class="day-tagline">LLMs, Image Models, World Models & Why Prompting Matters</p>
+                    </div>
+
+                    <div class="model-types">
+                        <div class="model-card">
+                            <div class="model-icon">💬</div>
+                            <h4>Language Models (LLMs)</h4>
+                            <p class="model-description">Designed to understand and generate text, answer questions, summarize, explain, and draft content.</p>
+                            <div class="model-examples">
+                                <strong>Examples:</strong> ChatGPT, Claude, Gemini
+                            </div>
+                            <div class="model-strengths">
+                                <h5>Good At:</h5>
+                                <ul>
+                                    <li>Writing and rewriting text</li>
+                                    <li>Explaining concepts</li>
+                                    <li>Analyzing documents</li>
+                                    <li>Conversational interfaces</li>
+                                </ul>
+                            </div>
+                            <div class="model-limitations">
+                                <h5>Limitations:</h5>
+                                <ul>
+                                    <li>Can hallucinate</li>
+                                    <li>No real understanding</li>
+                                    <li>Weak with exact numbers</li>
+                                    <li>Knowledge may be outdated</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-icon">🎨</div>
+                            <h4>Image Models</h4>
+                            <p class="model-description">Designed to generate images, edit images, and understand visual content.</p>
+                            <div class="model-examples">
+                                <strong>Examples:</strong> DALL·E, Midjourney, Stable Diffusion
+                            </div>
+                            <div class="model-strengths">
+                                <h5>Good At:</h5>
+                                <ul>
+                                    <li>Concept visualization</li>
+                                    <li>Design inspiration</li>
+                                    <li>Marketing visuals</li>
+                                    <li>Rapid prototyping</li>
+                                </ul>
+                            </div>
+                            <div class="model-limitations">
+                                <h5>Limitations:</h5>
+                                <ul>
+                                    <li>Inconsistent details</li>
+                                    <li>Struggles with text in images</li>
+                                    <li>Bias in training data</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-icon">🌍</div>
+                            <h4>World Models</h4>
+                            <p class="model-description">Aim to understand environments, predict outcomes of actions, and simulate real-world behavior.</p>
+                            <div class="model-examples">
+                                <strong>Applications:</strong> Robotics, autonomous vehicles, game simulations
+                            </div>
+                            <div class="model-strengths">
+                                <h5>Why They Matter:</h5>
+                                <ul>
+                                    <li>Enable planning</li>
+                                    <li>Support decision-making</li>
+                                    <li>Bridge AI and physical reality</li>
+                                    <li>Understand cause-and-effect</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prompting-intro">
+                        <h4>Where Prompting Fits In</h4>
+                        <div class="prompting-explanation">
+                            <div class="prompting-point">
+                                <div class="point-icon">💡</div>
+                                <div>
+                                    <h5>Prompting is Communication</h5>
+                                    <p>How humans communicate intent to AI models</p>
+                                </div>
+                            </div>
+                            <div class="prompting-point">
+                                <div class="point-icon">🎯</div>
+                                <div>
+                                    <h5>Models Need Instructions</h5>
+                                    <p>AI responds to instructions, not goals</p>
+                                </div>
+                            </div>
+                            <div class="prompting-point">
+                                <div class="point-icon">⚡</div>
+                                <div>
+                                    <h5>Better Prompts = Better Results</h5>
+                                    <p>Better alignment leads to better outputs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homework-section">
+                        <div class="homework-icon">📝</div>
+                        <div class="homework-content">
+                            <h4>Module 3 Homework</h4>
+                            <p>Identify one AI tool you've heard about. Write what model type you think it uses and write one question you would ask it</p>
+                        </div>
+                    </div>
+
+                    <div class="day-navigation">
+                        <button class="nav-btn prev-btn" data-prev="day2">
+                            <span class="nav-arrow">←</span>
+                            Previous Module: AI vs Generative AI
+                        </button>
+                        <button class="nav-btn next-btn" data-next="day4">
+                            Next Module: Prompting & Safety
+                            <span class="nav-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Module 4 Content -->
+                <div class="tab-content" id="day4">
+                    <div class="day-header">
+                        <h3>Module 4: Prompting Basics, Safety & Responsible Use</h3>
+                        <p class="day-tagline">How to Communicate with AI Clearly, Safely, and Responsibly</p>
+                    </div>
+
+                    <div class="framework-section">
+                        <h4>The R-T-C Prompting Framework</h4>
+                        <p class="framework-intro">A simple, repeatable framework for effective prompting</p>
+
+                        <div class="framework-cards">
+                            <div class="framework-card">
+                                <div class="framework-letter">R</div>
+                                <h5>Role</h5>
+                                <p>Who should the AI act as?</p>
+                                <div class="framework-examples">
+                                    <strong>Examples:</strong>
+                                    <ul>
+                                        <li>"You are an HR manager..."</li>
+                                        <li>"You are a customer support agent..."</li>
+                                        <li>"You are a technical writer..."</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="framework-card">
+                                <div class="framework-letter">T</div>
+                                <h5>Task</h5>
+                                <p>What should it do?</p>
+                                <div class="framework-examples">
+                                    <strong>Good task descriptions:</strong>
+                                    <ul>
+                                        <li>Clear objective</li>
+                                        <li>Single responsibility</li>
+                                        <li>Action-oriented</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="framework-card">
+                                <div class="framework-letter">C</div>
+                                <h5>Constraints</h5>
+                                <p>How should it respond?</p>
+                                <div class="framework-examples">
+                                    <strong>Can include:</strong>
+                                    <ul>
+                                        <li>Length</li>
+                                        <li>Tone</li>
+                                        <li>Format</li>
+                                        <li>Audience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="prompt-comparison">
+                            <div class="prompt-example weak">
+                                <div class="prompt-label">❌ Weak Prompt</div>
+                                <p>"Write an email."</p>
+                            </div>
+                            <div class="prompt-arrow">→</div>
+                            <div class="prompt-example strong">
+                                <div class="prompt-label">✓ Strong Prompt</div>
+                                <p>"You are a sales manager. Write a polite follow-up email to a client after a meeting. Keep it under 150 words."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="safety-section">
+                        <h4>Safety & Responsible Use</h4>
+
+                        <div class="safety-grid">
+                            <div class="safety-card warning">
+                                <h5>AI Hallucinations</h5>
+                                <ul>
+                                    <li>AI may generate false information</li>
+                                    <li>Sounds confident even when wrong</li>
+                                    <li>Happens due to probability-based generation</li>
+                                </ul>
+                                <div class="safety-tips">
+                                    <strong>How to Reduce:</strong>
+                                    <p>Ask for sources, request "I don't know" responses, break tasks into steps, verify critical information</p>
+                                </div>
+                            </div>
+
+                            <div class="safety-card danger">
+                                <h5>Do NOT Share</h5>
+                                <ul>
+                                    <li>Passwords</li>
+                                    <li>Personal identifiers</li>
+                                    <li>Confidential company data</li>
+                                    <li>Financial details</li>
+                                </ul>
+                            </div>
+
+                            <div class="safety-card success">
+                                <h5>AI Helps Most With</h5>
+                                <ul>
+                                    <li>Drafting</li>
+                                    <li>Summarizing</li>
+                                    <li>Brainstorming</li>
+                                    <li>Structuring information</li>
+                                </ul>
+                            </div>
+
+                            <div class="safety-card danger">
+                                <h5>AI Should NOT Decide Alone</h5>
+                                <ul>
+                                    <li>Hiring decisions</li>
+                                    <li>Legal judgments</li>
+                                    <li>Financial approvals</li>
+                                    <li>Medical advice</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="checklist-section">
+                            <h5>Personal AI Usage Checklist</h5>
+                            <div class="checklist">
+                                <div class="checklist-item">
+                                    <div class="checkbox">✓</div>
+                                    <p>Is this factual?</p>
+                                </div>
+                                <div class="checklist-item">
+                                    <div class="checkbox">✓</div>
+                                    <p>Is this appropriate?</p>
+                                </div>
+                                <div class="checklist-item">
+                                    <div class="checkbox">✓</div>
+                                    <p>Is this verified?</p>
+                                </div>
+                                <div class="checklist-item">
+                                    <div class="checkbox">✓</div>
+                                    <p>Am I accountable?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homework-section">
+                        <div class="homework-icon">📝</div>
+                        <div class="homework-content">
+                            <h4>Module 4 Homework & Next Steps</h4>
+                            <p>Identify 3 tasks where AI can help you. Write one RTC prompt for each. Commit to safe usage.</p>
+                        </div>
+                    </div>
+
+                    <div class="day-navigation">
+                        <button class="nav-btn prev-btn" data-prev="day3">
+                            <span class="nav-arrow">←</span>
+                            Previous Module: AI Models & Prompting
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coming Soon Trainings -->
+        <section class="coming-soon-section">
+            <div class="section-header">
+                <h2 class="section-title">More Training Programs</h2>
+                <p class="section-subtitle">Expanding your AI expertise with advanced and specialized programs</p>
+            </div>
+
+            <div class="coming-soon-grid">
+                <div class="coming-soon-card">
+                    <div class="coming-soon-badge">Coming Soon</div>
+                    <div class="coming-soon-icon">⚡</div>
+                    <h3>Prompt Engineering Advanced</h3>
+                    <p>Take your prompting skills to the next level with advanced techniques, optimization strategies, and workflow integration</p>
+                    <div class="coming-soon-features">
+                        <h4>What to Expect:</h4>
+                        <ul>
+                            <li>Advanced prompting patterns</li>
+                            <li>Chain-of-thought reasoning</li>
+                            <li>Workflow optimization</li>
+                            <li>Multi-modal prompting</li>
+                            <li>Real-world case studies</li>
+                        </ul>
+                    </div>
+                    <div class="notify-button">Notify Me</div>
+                </div>
+
+                <div class="coming-soon-card">
+                    <div class="coming-soon-badge">Coming Soon</div>
+                    <div class="coming-soon-icon">🚀</div>
+                    <h3>AI For Cutting Edge</h3>
+                    <p>Explore frontier AI technologies, emerging trends, and cutting-edge applications shaping the future</p>
+                    <div class="coming-soon-features">
+                        <h4>What to Expect:</h4>
+                        <ul>
+                            <li>Frontier AI models</li>
+                            <li>Emerging technologies</li>
+                            <li>AI agents and autonomy</li>
+                            <li>Industry innovations</li>
+                            <li>Future trends analysis</li>
+                        </ul>
+                    </div>
+                    <div class="notify-button">Notify Me</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-text">NS Engineering - AI Training Workshop Series</p>
+                <p class="footer-subtitle">Empowering participants with clarity, not complexity</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

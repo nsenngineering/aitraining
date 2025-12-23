@@ -1,0 +1,267 @@
+# Day 2: AI vs Generative AI
+
+Understanding What Changed and Why It Matters
+
+---
+
+## Slide 1 — Title Slide
+
+**AI vs Generative AI**
+What Changed, What Didn’t, and Why It Matters
+
+Workshop: AI for Beginners (Day 2)
+
+**Speaker Notes:**
+Welcome back. Briefly recap Day 1: AI evolved from rules to learning to generation. Today focuses on a critical distinction—traditional AI versus Generative AI. This understanding prevents confusion, overtrust, and misuse.
+
+---
+
+## Slide 2 — Quick Recap from Day 1
+
+* AI did not appear suddenly
+* AI works on data and patterns
+* AI does not think or understand
+* Generative AI is the latest phase
+
+**Speaker Notes:**
+Reinforce continuity. Emphasize that Generative AI is not a replacement of old AI, but an extension built on top of it.
+
+---
+
+## Slide 3 — Why This Distinction Matters
+
+* Expectations change based on understanding
+* Misuse happens when we assume AI understands
+* Decisions based on wrong assumptions are risky
+
+**Speaker Notes:**
+Explain that many AI failures come from misunderstanding what the system is designed to do. Correct mental models lead to safer usage.
+
+---
+
+## Slide 4 — What Is Traditional AI?
+
+Traditional AI is designed to:
+
+* Analyze data
+* Recognize patterns
+* Predict outcomes
+* Make recommendations
+
+**Speaker Notes:**
+Clarify that traditional AI is task-specific. It is very good at one thing, not general intelligence.
+
+---
+
+## Slide 5 — Examples of Traditional AI
+
+* Spam filtering
+* Fraud detection
+* Recommendation systems
+* Credit scoring
+* Face recognition
+
+**Speaker Notes:**
+Point out that these systems usually work silently in the background and do not interact with users conversationally.
+
+---
+
+## Slide 6 — What Traditional AI Cannot Do
+
+* Write essays
+* Hold conversations
+* Create original images
+* Adapt to open-ended tasks
+
+**Speaker Notes:**
+Emphasize boundaries. These systems operate within strict definitions and outputs.
+
+---
+
+## Slide 7 — Enter Generative AI
+
+Generative AI is designed to:
+
+* Create new content
+* Work with language naturally
+* Handle open-ended tasks
+* Interact conversationally
+
+**Speaker Notes:**
+Frame GenAI as a shift in interface. Humans can now talk to machines using natural language.
+
+---
+
+## Slide 8 — What Does “Generative” Mean?
+
+* Generates text, images, code, audio, video
+* Outputs are *new*, not copied
+* Based on learned patterns
+
+**Speaker Notes:**
+Clarify that generation is not copying from a database. It is probabilistic creation based on training patterns.
+
+---
+
+## Slide 9 — Why Generative AI Feels Intelligent
+
+* Uses human language
+* Responds fluently
+* Adapts tone and style
+
+**Speaker Notes:**
+Warn that fluency creates an illusion of understanding. This illusion is the biggest risk with GenAI.
+
+---
+
+## Slide 10 — Under the Hood (Conceptual)
+
+* Predicts the *next word* or *next element*
+* Chooses the most likely continuation
+* Repeats this step-by-step
+
+**Speaker Notes:**
+Keep this high-level. Avoid math. The key idea: prediction, not reasoning.
+
+---
+
+## Slide 11 — Comparison: AI vs Generative AI
+
+**Traditional AI**
+
+* Predicts
+* Classifies
+* Recommends
+* Narrow tasks
+
+**Generative AI**
+
+* Writes
+* Creates
+* Explains
+* Handles open-ended tasks
+
+**Speaker Notes:**
+This slide is a mental anchor. Encourage participants to remember this comparison.
+
+---
+
+## Slide 12 — Strengths of Generative AI
+
+* Speed
+* Drafting ability
+* Language fluency
+* Creativity support
+
+**Speaker Notes:**
+Position GenAI as an assistant, not an authority.
+
+---
+
+## Slide 13 — Weaknesses of Generative AI
+
+* Hallucinations
+* Confidently wrong answers
+* Bias from training data
+* No real-world understanding
+
+**Speaker Notes:**
+Stress that confidence does not equal correctness. This sets up Day 4 discussions.
+
+---
+
+## Slide 14 — AI That You See vs AI That You Don’t
+
+**Visible AI:**
+
+* Chatbots
+* Image generators
+
+**Invisible AI:**
+
+* Search ranking
+* Pricing algorithms
+* Risk scoring
+
+**Speaker Notes:**
+Explain that most AI still operates invisibly. GenAI just made AI visible and approachable.
+
+---
+
+## Slide 15 — Why Generative AI Became Mainstream
+
+* Easy access
+* Natural language interface
+* Low learning curve
+* Immediate results
+
+**Speaker Notes:**
+Explain that usability—not intelligence alone—drove adoption.
+
+---
+
+## Slide 16 — What GenAI Is NOT
+
+* Not a human
+* Not a decision-maker
+* Not a source of truth
+* Not a replacement for judgment
+
+**Speaker Notes:**
+Reinforce responsibility. Humans remain accountable for decisions.
+
+---
+
+## Slide 17 — When to Use Which
+
+Use **Traditional AI** when:
+
+* Decisions must be consistent
+* Accuracy is critical
+
+Use **Generative AI** when:
+
+* Drafting or ideation is needed
+* Speed matters more than perfection
+
+**Speaker Notes:**
+Help participants choose the right tool for the right job.
+
+---
+
+## Slide 18 — Common Myths About Generative AI
+
+* “It understands me”
+* “It is always correct”
+* “It replaces expertise”
+
+**Speaker Notes:**
+Debunk gently. Avoid fear-based messaging.
+
+---
+
+## Slide 19 — Key Takeaways (Day 2)
+
+* Traditional AI predicts; GenAI creates
+* GenAI feels intelligent but is probabilistic
+* Strengths and weaknesses must be understood
+
+**Speaker Notes:**
+Connect these takeaways to upcoming prompting lessons.
+
+---
+
+## Slide 20 — Homework
+
+**Task:**
+
+* Ask an AI tool to explain something you already know well
+* Note one thing it explains well
+* Note one thing it gets wrong or vague
+
+**Speaker Notes:**
+Explain that this homework trains critical thinking, not usage skill.
+
+---
+
+**End of Day 2**
